@@ -1,0 +1,80 @@
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow-color);
+    height: 35px;
+    position: relative;
+    color: var(--bg-color);
+    width: 145px;
+}
+
+.arrow:after{
+    content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    left:100%;
+    top:0;
+    border: 17.5px solid transparent;
+    border-left: 25px solid  var(--yellow-color);;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+}
+
+.education-title {
+    color: var(--sub-title-color);
+    font-size: 1.3rem;
+    margin-block: 3px;
+}
+
+.edutation-date {
+    color: var(--bg-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+#modal-education {
+    position: absolute;
+    top: 195px;
+    left: 435px;
+    width: 650px;
+}
+
+#arrow-education {
+    width: 100px;
+}
+
+#modal-education-language {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    left: 45px;
+    top: 315px;
+    width: 190px;
+
+}
+
+#modal-experience {
+    position: absolute;
+    right: 150px;
+    width: 650px;
+    bottom: 40px;
+
+}
+
+#arrow-experience {
+    width: 100px;
+}

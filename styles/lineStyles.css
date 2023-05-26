@@ -1,0 +1,174 @@
+.line {
+  position: absolute;
+  background-color: var(--main-color);
+}
+
+.vertical {
+  width: 2px;
+  height: 0px;
+  transition: height 0.5s ease-in-out;
+}
+
+.horizontal{
+  width: 0px;
+  height: 2px;
+  transition: width 0.5s ease-in-out;
+}
+
+#contact {
+  position: absolute;
+  background-color: chartreuse;
+  /* Tirar width e height*/
+  width: 50px;
+  height: 50px;
+  left: 200px;
+  top: 100px
+}
+
+#line-contact-right.stretched{
+  width: 100px;
+}
+
+#line-contact-top {
+  right: 0;
+  bottom: 0;
+  transform: scaleX(-1);
+}
+
+#line-contact-top.stretched{
+  height: 600px;
+}
+
+#skills {
+  position: absolute;
+  background-color: purple;
+  /* Tirar width e height*/
+  width: 50px;
+  height: 50px;
+  left: 200px;
+  bottom: 0;
+}
+
+
+#line-skills-right.stretched{
+  width: 700px;
+}
+
+#line-skills-bottom {
+  right: 0;
+}
+
+#line-skills-bottom.stretched{
+  height: 100px;
+}
+
+#education {
+  position: absolute;
+  background-color: purple;
+  /* Tirar width e height*/
+  width: 50px;
+  height: 50px;
+  bottom: -50px;
+}
+
+#line-education-right-one {
+  bottom: 0;
+}
+
+#line-education-right-one.stretched{
+  width: 500px;
+}
+
+#line-education-bottom-one {
+  right: 0;
+}
+
+#line-education-bottom-one.stretched{
+  height: 100px;
+}
+
+#line-education-bottom-two {
+  left: 260px;
+}
+
+#line-education-bottom-two.stretched{
+  height: 450px;
+}
+
+#line-education-bottom-three {
+  right: 0px;
+}
+
+#line-education-bottom-three.stretched{
+  height: 100px;
+}
+
+#line-education-right-two {
+  right: 0;
+  bottom: 0;
+  transform: scaleX(1);
+}
+
+#line-education-right-two.stretched{
+  width: 50px;
+}
+
+#about{
+  position: absolute;
+  background-color: purple;
+  /* Tirar width e height*/
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  top: -50px
+}
+
+
+#line-about-top {
+  bottom: 0;
+  transform: scaleX(-1);
+}
+
+#line-about-top.stretched{
+  height: 100px;
+}
+
+#line-about-left {
+  left: 0;
+  transform: scaleX(1);
+}
+
+#line-about-left.stretched{
+  width: 400px;
+}
+
+#experience{
+  position: absolute;
+  background-color: purple;
+  /* Tirar width e height*/
+  width: 50px;
+  height: 50px;
+  left: -50px;
+}
+
+
+#line-experience-top {
+  bottom: 0;
+  transform: scaleX(-1);
+}
+
+#line-experience-top.stretched{
+  height: 600px;
+}
+
+#line-experience-left {
+  right: 0;
+  bottom: 0;
+  transform: scaleX(1);
+}
+
+#line-experience-left.stretched{
+  width: 100px;
+}
+
+

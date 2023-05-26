@@ -1,0 +1,49 @@
+.point{
+  position: absolute;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: 2px solid var(--point-color);
+  background: transparent;
+}
+
+#skills-point,
+#education-point-language,
+#education-point,
+#about-point,
+#contact-point {
+    transform: scale(0);
+    transition: transform 1s;
+}
+
+#skills-point {
+    top: 100px;
+    left: 697px;
+}
+
+#education-point-language {
+    top: 542px;
+    left: 251px;
+  }
+  
+#education-point {
+  top: 198px;
+  left: 543px;
+}
+
+#about-point {
+  top: 100px;
+  left: 697px;
+}
+
+#contact-point {
+  top: -606.5px;
+  left: 95.5px;
+}
+
+#experience-point {
+  top: -558px;
+  left: -53px;
+}
+  
+  

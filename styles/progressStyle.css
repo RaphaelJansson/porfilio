@@ -1,0 +1,66 @@
+
+
+@property --progress-value {
+  syntax: '<integer>';
+  inherits: false;
+  initial-value: 0;
+}
+
+@keyframes portuguese-progress {
+  to { --progress-value: 100; }
+}
+
+@keyframes english-progress {
+  to { --progress-value: 66; }
+}
+
+.progress {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+}
+
+.progress .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.progress.english {
+  background-image: conic-gradient(var(--yellow-color) calc(var(--progress-value) * 1%), var(--grey-color) 0);
+  animation: english-progress 2s 1 forwards;
+}
+
+.flag-england{
+  background-image: url('../images/england.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.progress.portuguese {
+  background-image: conic-gradient(var(--yellow-color) calc(var(--progress-value) * 1%), var(--grey-color) 0);
+  animation: portuguese-progress 2s 1 forwards;
+}
+
+.flag-brazil{
+  background-image: url('../images/brazil.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+

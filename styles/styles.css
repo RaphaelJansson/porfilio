@@ -1,0 +1,52 @@
+
+:root {
+  --bg-color: #242424;
+  --yellow-color: #FAC734;
+  --grey-color: #464644;
+  --main-color: #ecf0f1;
+  --point-color: #ecf0f1;
+  --title-color: #FAC734;
+  --sub-title-color: #ecf0f1;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-color);
+  font-family: -apple-system, Roboto, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#parent {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  transition: transform 0.5s ease-in-out;
+}
+
+.title {
+  color: var(--title-color);
+  font-size: 2rem;
+}
+
+.description {
+  margin-block: 3px;
+  font-weight: 300;
+}
+
+#theme{
+  width: 20px;
+  height: 20px;
+}
